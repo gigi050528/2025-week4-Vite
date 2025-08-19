@@ -183,3 +183,21 @@
     padding: 0 8px;
   }
 }
+
+.card a{
+  &:hover{
+    opacity: 80%;
+  }
+}
+
+.product a {
+  &:hover {
+    opacity: 70%;
+  }
+}
+
+.category h4{
+  &:hover {
+      color: $primary-300;
+    }
+}

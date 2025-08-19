@@ -12,3 +12,9 @@
     background-color: $primary-300;
     font-weight: 500;
 }
+
+.product a{
+    &:hover{
+        opacity: 70%;
+    }
+}

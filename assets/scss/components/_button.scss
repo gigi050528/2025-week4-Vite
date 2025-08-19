@@ -12,6 +12,9 @@
 .btn-dark{
 	background: $neutral-900;
 	color: $neutral-0;
+	&:hover{
+		background-color: $neutral-700;
+	}
 }
 
 .btn-light{
@@ -21,6 +24,9 @@
 .btn-green{
 	background: $primary-300;
 	color: $neutral-900;
+	&:hover{
+		color: $neutral-500;
+	}
 }
 
 .btn-primary{
