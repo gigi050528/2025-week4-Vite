@@ -25,12 +25,9 @@
 	background-size: cover;
 	background-position: center;
 	padding: 289px 0px 288px 200px;
-}
-
-@media(max-width:767px){
-  .content{
+  @include pad {
     padding: 155px 24px;
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+      background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
   }
 }
 
@@ -86,14 +83,16 @@
     bottom: 132px;
     right: calc(50% - 357px);
   }
+
+  @include pad{
+    padding: 64px 0;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
+    overflow: hidden;
+  }
 }
 
 @media(max-width: 767px) {
   .banner {
-    padding: 64px 0;
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
-    overflow: hidden;
-
     .btn{
     padding: 12px 24px;
     }
