@@ -21,10 +21,11 @@
 	border: 1px solid $neutral-900;
 }
 
-.btn-green{
+.btn-green {
 	background: $primary-300;
 	color: $neutral-900;
-	&:hover{
+
+	&:hover {
 		color: $neutral-500;
 	}
 }

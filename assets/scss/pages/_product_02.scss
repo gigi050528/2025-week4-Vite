@@ -2,23 +2,25 @@
 .product-row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -12px;
-    margin-right: -12px;
+    margin-left: -4px;
+    margin-right: -4px;
 
     @include pad {
         display: block;
-        margin-left: -16px;
-        margin-right: -16px;
+        margin-left: -12px;
+        margin-right: -12px;
     }
 }
 
 .product-col {
     width: calc(100% / 12*6);
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
 
     @include pad {
         width: calc(100%);
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
 
@@ -35,6 +37,9 @@
     width: 64px;
     text-align: center;
     color: $neutral-600;
+    p{
+        color: $neutral-600;
+    }
 }
 
 /* 產品尺寸 */
@@ -72,7 +77,10 @@
 }
 
 .product-action .bi {
+    display: inline-block;
     padding-right: 8px;
+    vertical-align: bottom;
+    width: 20px;
 }
 
 
@@ -87,4 +95,11 @@
 
 .product-info-item{
     border-bottom: 1px solid $neutral-300;
+}
+
+/* 你可能也喜歡... */
+.maybe-like a {
+    &:hover {
+        opacity: 80%;
+    }
 }
